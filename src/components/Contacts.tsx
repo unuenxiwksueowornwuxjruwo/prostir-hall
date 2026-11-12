@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react'
-import { Clock, MapPin } from 'lucide-react'
+import { Clock, Instagram, MapPin } from 'lucide-react'
 import { ADDRESS, HOURS, NOT_CONNECTED_CONTACT } from '../data/content'
 import { btnLime, fieldCls, Heading, Notice, Reveal, SectionShell } from './ui'
 
@@ -34,11 +34,16 @@ export default function Contacts() {
             <ul className="space-y-3 text-white/85">
               <li className="flex items-start gap-3"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-lime" aria-hidden="true" />{ADDRESS}</li>
               <li className="flex items-start gap-3"><Clock className="mt-0.5 h-5 w-5 shrink-0 text-lime" aria-hidden="true" />Щодня {HOURS}</li>
+              <li className="flex items-start gap-3">
+                <Instagram className="mt-0.5 h-5 w-5 shrink-0 text-lime" aria-hidden="true" />
+                <a href="https://www.instagram.com/prostirhall/" target="_blank" rel="noopener noreferrer" className="underline decoration-lime/50 underline-offset-4 hover:text-lime">
+                  Instagram: @prostirhall
+                </a>
+              </li>
             </ul>
             <ul className="space-y-2">
               <li className={ph}>Телефон: [буде додано]</li>
               <li className={ph}>E-mail: [буде додано]</li>
-              <li className={ph}>Соцмережі: [буде додано]</li>
             </ul>
             <a href="#rent" className={btnLime}>Забронювати зал</a>
           </Reveal>
