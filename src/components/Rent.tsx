@@ -41,7 +41,7 @@ export default function Rent() {
           <Reveal>
             <p className="font-display text-4xl font-black text-lime sm:text-5xl md:text-6xl">{PRICE}</p>
             <p className="mt-2 text-sm text-white/60">Вартість уточнюйте перед бронюванням</p>
-            <p className="mt-2 text-sm text-white/60">Щодня 07:00–23:00</p>
+            <p className="mt-2 text-sm text-white/60">Щодня 08:00–23:00</p>
             <div role="radiogroup" aria-label="Формат оренди" className="mt-8 space-y-3">
               {FORMATS.map((f) => {
                 const sel = format === f.id

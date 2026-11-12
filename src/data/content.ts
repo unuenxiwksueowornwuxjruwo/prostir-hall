@@ -1,5 +1,5 @@
 export const NB = ' '
-export const HOURS = `07:00–23:00`
+export const HOURS = `08:00–23:00`
 export const PRICE = `від${NB}1600${NB}грн`
 export const ADDRESS = 'Київ, ВДНГ, проспект Академіка Глушкова, 1'
 export const ADDRESS_SHORT = `пр.${NB}Академіка${NB}Глушкова,${NB}1`
@@ -69,4 +69,4 @@ export const INFRA = [
 export const INFRA_PHOTOS = ['lockers', 'cafe', 'lounge'] as const
 export const INFRA_PHOTO_LABELS: Record<string, string> = { lockers: 'Роздягальня', cafe: 'Кафе', lounge: 'Зона відпочинку' }
 
-export const START_TIMES = Array.from({ length: 16 }, (_, i) => `${String(i + 7).padStart(2, '0')}:00`)
+export const START_TIMES = Array.from({ length: 15 }, (_, i) => `${String(i + 8).padStart(2, '0')}:00`)
