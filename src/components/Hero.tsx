@@ -21,7 +21,7 @@ export default function Hero() {
             Твій простір. <span className="text-lime">Твоя{NB}гра.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/70">
-            Сучасний критий спортивний зал на ВДНГ, створений передусім для баскетболу. Тренування, ігри та спортивні події різного рівня.
+            Сучасний критий спортивний зал на ВДНГ, для баскетболу і волейболу. Тренування, ігри та спортивні події різного рівня.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#rent" className={btnLime}>Забронювати зал</a>
@@ -41,8 +41,8 @@ export default function Hero() {
           <span className="absolute -bottom-3 -left-3 h-24 w-24 rounded-bl-3xl border-b-4 border-l-4 border-lime/60" aria-hidden="true" />
           <PhotoFrame k="dunk" eager overlay className="aspect-[740/555] rounded-3xl border border-white/10" />
           <div className="absolute -bottom-6 right-2 max-w-[280px] rounded-2xl border border-white/10 bg-graphite-800/95 p-4 shadow-xl backdrop-blur sm:right-6">
-            <p className="font-heading text-sm font-bold">Баскетбол · Волейбол · Бадмінтон</p>
-            <p className="mt-1 text-xs text-white/60">волейбол і бадмінтон — за домовленістю</p>
+            <p className="font-heading text-sm font-bold">Баскетбол · Волейбол</p>
+            <p className="mt-1 text-xs text-white/60">бадмінтон та інше — за попередньою домовленістю</p>
           </div>
         </Reveal>
       </div>
